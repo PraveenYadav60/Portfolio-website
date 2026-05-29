@@ -1,0 +1,77 @@
+/* src/MyComponent/Projects.css */
+
+.projects-section {
+    padding: 50px 10%;
+    background-color: #0b1c36;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.section-title span {
+    color: #ffd400;
+}
+
+.projects-grid {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project-card {
+    width: 550px;
+    height: 500px;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+    color: #fff;
+    box-shadow: 0 0 20px rgba(255, 212, 0, 0.7);
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+.netflix {
+    background-image: url("Plant.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.sneaker {
+    background-image: url("Plant.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.project-content {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.project-btn {
+    margin-top: 10px;
+    padding: 5px 15px;
+    background-color: #ffd400;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.project-btn:hover {
+    background-color: #e5c200;
+}

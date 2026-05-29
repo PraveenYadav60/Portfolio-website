@@ -1,0 +1,146 @@
+.profile-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 25px;
+    min-height: 90vh;
+    padding: 20px;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    font-size: 20px;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.profile-text {
+    max-width: 600px;
+    text-align: justify;
+}
+
+.highlight {
+    color: #ffd700;
+    font-weight: bold;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.icon {
+    font-size: 25px;
+    color: #ffd700;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.icon:hover {
+    color: #fff;
+}
+
+.glow-button {
+    background-color: #ffd700;
+    color: #0b1c36;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.7);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.glow-button:hover {
+    box-shadow: 0 0 25px rgba(255, 215, 0, 1);
+}
+
+.profile-image {
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+    left: 70px;
+}
+
+.profile-image img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 5px solid #0b1c36;
+    box-shadow: 0 0 20px #ff007f;
+}
+
+.profile-image::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    border: 5px solid transparent;
+    border-left-color: #ff007f;
+    border-right-color: #ff007f;
+    animation: rotate 3s linear infinite;
+}
+
+@keyframes rotate {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+    .profile-container {
+        gap: 30px;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .profile-text {
+        max-width: 90%;
+    }
+    .profile-image img {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media (max-width: 768px) {
+    .profile-section {
+        padding: 15px;
+    }
+    .profile-container {
+        gap: 20px;
+    }
+    .profile-text {
+        font-size: 18px;
+    }
+    .icon {
+        font-size: 22px;
+    }
+    .glow-button {
+        padding: 8px 15px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .profile-image img {
+        width: 200px;
+        height: 200px;
+    }
+    .glow-button {
+        padding: 6px 10px;
+        font-size: 14px;
+    }
+    .profile-text h1 {
+        font-size: 24px;
+    }
+    .profile-text h2 {
+        font-size: 20px;
+    }
+    .icon {
+        font-size: 20px;
+    }
+}
