@@ -12,11 +12,19 @@ const Projects = () => {
         {/* Plant Card  */}
         <div className="project-card netflix">
           <div className="project-content">
-            <h3>Plant AI Detective</h3>
+            <h3>MVECT Website </h3>
             <p>
-            Plant AI Detective is an advanced AI-powered tool designed to analyze plant health, detect diseases, and provide actionable insights for farmers, gardeners, and researchers.
+            MVECT(https://www.mvectrust.org) is a non-profit NGO working to empower underprivileged communities through education, healthcare, women empowerment, vocational training, and sustainable social development.
+
             </p>
-            <button className="project-btn">Explore</button>
+            <a
+              href="https://www.mvectrust.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="project-btn"
+            >
+              Explore
+            </a>
           </div>
         </div>
 
@@ -24,13 +32,18 @@ const Projects = () => {
         <div className="project-card sneaker">
           <img src="PlantAiDetective" alt="" />
           <div className="project-content">
-            <h3>Sneaker Store</h3>
+            <h3>Plant AI Detective</h3>
             <p>
-              Introducing my latest endeavor: a visionary sneaker web project!
-              With HTML, CSS, and JavaScript at its core, this platform seamlessly
-              merges style and technology.
+              Plant AI Detective is an advanced AI-powered tool designed to analyze plant health, detect diseases, and provide actionable insights for farmers, gardeners, and researchers.
             </p>
-            <button className="project-btn">Explore</button>
+            <a
+              href="https://github.com/PraveenYadav60/PlantAiDetective"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="project-btn"
+            >
+              Explore
+            </a>
           </div>
         </div>
       </div>
