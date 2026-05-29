@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import Header from "./MyComponent/Header";
 import Home from "./MyComponent/Home";
@@ -7,7 +7,7 @@ import Skills from "./MyComponent/Skills";
 import Projects from "./MyComponent/Projects";
 import Footer from "./MyComponent/Footer";
 import Services from "./MyComponent/Services";
-import Skill from "./MyComponent/Skill";
+// import Skill from "./MyComponent/Skill";
 
 const App = () => {
   return (

@@ -10,7 +10,7 @@ import {
   // FaDocker,
   FaBootstrap,
 } from "react-icons/fa";
-import { SiSpring } from "react-icons/si";
+// import { SiSpring } from "react-icons/si";
 
 const Skills = () => {
   const skillsData = [

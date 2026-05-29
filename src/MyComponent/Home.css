@@ -122,6 +122,10 @@
     .glow-button {
         padding: 8px 15px;
     }
+    .profile-image{
+        left: 10px;
+        top: -160px;
+    }
 }
 
 
