@@ -15,11 +15,18 @@ const services = [
     icon: "🖥️",
   },
   {
-    title: "FullStack Development",
+    title: "Figma Design",
     description:
-      "End-to-end development solutions for both frontend and backend systems.",
-    icon: "📦",
+      "Creating visually stunning and user-friendly designs using Figma for wireframing, prototyping, and design systems.",
+    icon: "✏️",
   },
+  
+  // {
+  //   title: "FullStack Development",
+  //   description:
+  //     "End-to-end development solutions for both frontend and backend systems.",
+  //   icon: "📦",
+  // },
   {
     title: "UI/UX Design",
     description:
