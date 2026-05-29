@@ -10,6 +10,11 @@ import {
   // FaDocker,
   FaBootstrap,
 } from "react-icons/fa";
+
+import {
+  SiFigma,
+  SiJquery,
+} from "react-icons/si";
 // import { SiSpring } from "react-icons/si";
 
 const Skills = () => {
@@ -17,9 +22,11 @@ const Skills = () => {
     { icon: <FaHtml5 />, color: "#E44D26" },        // HTML5
     { icon: <FaCss3Alt />, color: "#1572B6" },      // CSS3
     { icon: <FaJs />, color: "#F0DB4F" },           // JavaScript
-    { icon: <FaReact />, color: "#61DBFB" },        // React
-    // { icon: <SiSpring />, color: "#6DB33F" },       // Spring
+    { icon: <SiFigma />, color: "#F24E1E" },       // Figma
+    { icon: <FaReact />, color: "#61DBFB" },        // Reactng
     { icon: <FaBootstrap />, color: "#563D7C" },    // Bootstrap
+    { icon: <SiJquery />, color: "#0769AD" },      // jQuery
+    // { icon: <span style={{ fontWeight: "bold" }}>AJAX</span>, color: "#00A8E8" }, // AJAX
     // { icon: <FaDocker />, color: "#2496ED" },       // Docker
     { icon: <FaJava />, color: "#F89820" },         // Java
   ];
